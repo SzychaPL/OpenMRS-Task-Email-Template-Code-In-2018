@@ -1,0 +1,89 @@
+   html {
+      font-family: 'Noto Sans', sans-serif, 'Arial';
+      font-size: calc(10px + 1vmin);
+   }
+
+   *,
+   *::after,
+   *::before {
+      box-sizing: border-box;
+   }
+
+   body {
+      width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+      background-image: url(pipes.png);
+      /* Background pattern from Toptal Subtle Patterns, Author's permission for use for each project */
+   }
+
+   img {
+      max-width: 100%;
+      display: block;
+   }
+
+   header {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      width: 920px;
+      background-color: #fff;
+      border: 1px solid #f2f2f2;
+
+   }
+
+   header img {
+      flex: none;
+
+   }
+
+   header div {
+      flex: 1;
+   }
+
+   header img {
+      padding: 2rem;
+   }
+
+   article {
+      margin-left: auto;
+      margin-right: auto;
+      width: 700px;
+      height: 550px;
+      background-color: #fff;
+      margin-bottom: 0;
+      border: 1px solid #f2f2f2;
+   }
+
+   section {
+      padding: 90px 50px 20px 50px;
+      text-align: justify;
+   }
+
+   p {
+      line-height: 200%;
+   }
+
+   h1 {
+      text-align: center;
+      line-height: 200%;
+      color: #F26522;
+   }
+
+   h2 {
+      color: #5B57A6;
+      text-align: center;
+      line-height: 300%;
+   }
+
+   .first-text {
+      margin-top: 40px;
+   }
+
+   footer {
+      text-align: center;
+      padding: 40px;
+      color: #bfbfbf;
+   }
+
